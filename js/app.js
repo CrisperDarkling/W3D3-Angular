@@ -1,4 +1,4 @@
-angular.module('TodoApp',['ngRoute', 'RouteControllers', "UserService", "angular-storage", "TodoService, Todo-Directive"]);
+angular.module('TodoApp',['ngRoute', 'RouteControllers', "UserService", "angular-storage", "TodoService", "Todo-Directive"]);
 
 angular.module('TodoApp').config(function($locationProvider, $routeProvider) { $locationProvider.html5Mode(true);
     
